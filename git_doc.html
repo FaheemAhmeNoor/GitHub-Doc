@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GitHub Documentation</title>
+    <style>
+        #vcs{
+            text-align: center;
+        }
+        body{
+            background-color: rgb(59, 182, 190);
+            color: blanchedalmond;
+        }
+        h3{
+            color: rgb(145, 28, 28);
+        }
+        p{
+            size: 1000px;
+        }
+        h1{
+            color: rgb(21, 34, 151);
+        }
+    </style>
 </head>
 <body>
-    <h1>Version Controll Systems</h1>
+    <h1 id="vcs">Version Controll Systems</h1>
     <p>Version Controll Systems are used to keep track of changes that you make in your code. It is also used when you want to collaborate your work with your project team.</p>
     <h3>Some important VCS in the market are</h3>
     <img src="VCS logos/Git-Logo.jpg" alt="" width="100px">
@@ -29,11 +47,11 @@
         <i>$ git init</i>
         <img src="/screen_shots/Capture001.PNG" alt="">
         <p>This will create a .git repository that will contain all the necessary repository files. At this point nothing is tracked in your project.</p>
-        <h4>Git Status</h4>
+        <h3>Git Status</h3>
         <p>You can use the git status command to know the status of your files in your git repository, you get the detail of all the commits and the tracked and untracked files.</p>
         <p><i>$ git status</i></p>
         <img src="/screen_shots/Capture002.PNG" alt="">
-        <h4>Git Add</h4>
+        <h3>Git Add</h3>
         <p>Git Add command is used to move all the files that you select to the stagging area to be comitted.</p>
         <p><i>$ git add file_name</i></p>
         <img src="/screen_shots/Capture003.PNG" alt="">
@@ -41,24 +59,24 @@
         <p><i>$ git add .</i></p>
         <img src="/screen_shots/Capture004.PNG" alt="">
 
-        <h4>Git Commit</h4>
+        <h3>Git Commit</h3>
         <p>Git commit is used to move files from stagging area to repository, you can give a message and a description with every commit.</p>
         <p><i>$ git commit</i></p>
         <img src="/screen_shots/Capture005.PNG" alt="">
         <p>The commit is showing 4 files changed because we have used <i>git add .</i></p>
         <img src="/screen_shots/Capture006.PNG" alt="">
 
-        <h4>Git log</h4>
+        <h3>Git log</h3>
         <p>Git log command is used to see the detail of all the commits that you've done. It shows the detail like the hash, owner name and email, and the data and time of commit.</p>
         <p><i>$ git log</i></p>
         <img src="/screen_shots/Capture007.PNG" alt="">
 
-        <h4>Git push</h4>
+        <h3>Git push</h3>
         <p>This commad is used to push your local repository to the central GitHub Repository.</p>
         <p><i>$ git push url of your GitHub Repository master</i></p>
         <img src="/screen_shots/Capture008.PNG" alt="">
 
-        <h4>Git pull</h4>
+        <h3>Git pull</h3>
         <p>This command is used to pull the GitHub Repository to your local machine to make contribute to open source projects.</p>
         <p><i>$ git pull url of your GitHub Repository master</i></p>
         <img src="/screen_shots/Capture009.PNG" alt="">
